@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test  name ="Test1">
+  <parameter name ="Mobile" value="Samsung" />
+  <parameter name ="Model" value="J7Max" />
+  <parameter name ="Price" value="16000" />
+  <classes>  
+  <class name="org.Sample.Suite"></class>
+  </classes>
+  </test>  <!-- Test -->
+  
+  <test name="Test2" >
+  <parameter name ="Mobile" value="Iphone" />
+  <parameter name ="Model" value="I7" />
+  <parameter name ="Price" value="68000" />
+  <classes>
+  <class name="org.Sample.Suite"></class>
+  </classes>
+  </test>   <!-- Test -->
+  
+  <test name="Test3" >
+  <parameter name ="Mobile" value="Oneplus" />
+  <parameter name ="Model" value="Oneplus7" />
+  <parameter name ="Price" value="35000" />
+  <classes>
+<class name="org.Sample.Suite"></class>
+  </classes>
+  </test>  <!-- Test -->
+</suite> <!-- Suite -->
