@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105" started-at="2020-06-09T19:43:46Z" finished-at="2020-06-09T19:43:46Z">
+  <suite name="Default suite" duration-ms="82" started-at="2020-06-17T16:41:24Z" finished-at="2020-06-17T16:41:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="105" started-at="2020-06-09T19:43:46Z" finished-at="2020-06-09T19:43:46Z">
-      <class name="org.Sample.AccessData">
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:org.Sample.AccessData@614c5515]" name="setData" duration-ms="27" started-at="2020-06-09T19:43:46Z" data-provider="input" finished-at="2020-06-09T19:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sab]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="82" started-at="2020-06-17T16:41:24Z" finished-at="2020-06-17T16:41:25Z">
+      <class name="org.Sample.Class1">
+        <test-method status="PASS" signature="Method1()[pri:0, instance:org.Sample.Class1@6fb554cc]" name="Method1" duration-ms="16" started-at="2020-06-17T16:41:25Z" finished-at="2020-06-17T16:41:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:org.Sample.AccessData@614c5515]" name="setData" duration-ms="4" started-at="2020-06-09T19:43:46Z" data-provider="input" finished-at="2020-06-09T19:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Swathi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[happ123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:org.Sample.AccessData@614c5515]" name="setData" duration-ms="2" started-at="2020-06-09T19:43:46Z" data-provider="input" finished-at="2020-06-09T19:43:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mithra]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[love@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-      </class> <!-- org.Sample.AccessData -->
+        </test-method> <!-- Method1 -->
+      </class> <!-- org.Sample.Class1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
